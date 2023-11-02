@@ -18,3 +18,8 @@ body {
   letter-spacing: 0.1em;
   /* Ajuste o valor conforme necessário */
 }
+/* Estilos de alto contraste */
+.high-contrast {
+  background-color: #000 !important; /* Cor de fundo preta */
+  color: #fff !important; /* Cor do texto branca */
+}

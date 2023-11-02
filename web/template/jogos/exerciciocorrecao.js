@@ -33,7 +33,8 @@ function generateQuestion() {
 function checkAnswer() {
   const questionText = document.getElementById("question");
   const answerInput = document.getElementById("answer");
-  const resultText = document.getElementById("result");
+// Altere a linha que define resultText para corresponder ao ID no HTML
+const resultText = document.getElementById("resultText");
   const livesDisplay = document.getElementById("lives");
 
   if (timeRemaining >= 0) {

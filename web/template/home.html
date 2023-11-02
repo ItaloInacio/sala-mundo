@@ -35,7 +35,7 @@
       </div>
     </div>
   </section>
-  <header>
+  <header class="high-contrast">
     <!-- Barra de Navegação -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -50,7 +50,7 @@
               <a class="nav-link" href="home.html">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="exercicios.html">Exercícios</a>
+              <a class="nav-link" href="../template/jogos/exercicios.html">Exercícios</a>
             </li>
             
             <li class="nav-item">
@@ -94,44 +94,49 @@
     </div>
   </header>
 
-
-  <!-- Seção de Conteúdo -->
-  <section class="container mt-5">
-    <h2 class="text-center">Conteúdos</h2>
-    <div class="row">
-      <!-- Exemplo de cards de curso -->
-      <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="curso1.jpg" class="card-img-top" alt="Curso 1">
-          <div class="card-body">
-            <h5 class="card-title">Matemática Basica</h5>
-            <p class="card-text">Descrição do Curso 1.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="curso2.jpg" class="card-img-top" alt="Curso 2">
-          <div class="card-body">
-            <h5 class="card-title">Curso 2</h5>
-            <p class="card-text">Descrição do Curso 2.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="curso3.jpg" class="card-img-top" alt="Curso 3">
-          <div class="card-body">
-            <h5 class="card-title">Curso 3</h5>
-            <p class="card-text">Descrição do Curso 3.</p>
-            <a href="#" class="btn btn-primary">Saiba Mais</a>
-          </div>
-        </div>
-      </div>
+<!-- Seção de Conteúdo -->
+<section class="container mt-5">
+  <h2 class="text-center">Conteúdos</h2>
+  <div class="row">
+   <!-- Card para Adição -->
+<div class="col-md-4 contraste">
+  <div class="card mb-4">
+    <img src="adicao.jpg" class="card-img-top" alt="Adição">
+    <div class="card-body">
+      <h5 class="card-title">Adição</h5>
+      <p class="card-text">A adição é uma operação matemática fundamental que combina dois números para obter sua soma. Aprenda a realizar adições simples e complexas.</p>
+      <a href="#" class="btn btn-primary">Saiba Mais</a>
     </div>
-  </section>
+  </div>
+</div>
+
+<!-- Card para Subtração -->
+<div class="col-md-4 contraste">
+  <div class="card mb-4">
+    <img src="subtracao.jpg" class="card-img-top" alt="Subtração">
+    <div class="card-body">
+      <h5 class="card-title">Subtração</h5>
+      <p class="card-text">A subtração é uma operação matemática que envolve a remoção de um número de outro para obter a diferença. Aprenda a realizar subtrações de forma eficiente.</p>
+      <a href="#" class="btn btn-primary">Saiba Mais</a>
+    </div>
+  </div>
+</div>
+
+<!-- Card para Multiplicação -->
+<div class="col-md-4 contraste">
+  <div class="card mb-4">
+    <img src="multiplicacao.jpg" class="card-img-top" alt="Multiplicação">
+    <div class="card-body">
+      <h5 class="card-title">Multiplicação</h5>
+      <p class="card-text">A multiplicação é uma operação matemática que envolve a repetição de um número por outro para obter o produto. Aprenda a realizar multiplicações de forma eficaz.</p>
+      <a href="#" class="btn btn-primary">Saiba Mais</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
   <!-- Botão "Voltar ao Topo" -->
   <button id="btn-top" class="btn btn-primary rounded-circle" title="Voltar ao Topo"
     style="position: fixed; bottom: 20px; right: 20px;">
@@ -143,12 +148,10 @@
       <div class="vw-plugin-top-wrapper"></div>
     </div>
   </div>
-
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
 
-  </script>
+  <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+  
   <!-- Inclua os scripts do Bootstrap no final do documento -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/accessibility-buttons.js"></script>
