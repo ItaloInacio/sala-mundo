@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/italo/sala/sala-mundo",
-      "program": "c:/Users/italo/sala/sala-mundo/build/Debug/outDebug",
+      "cwd": "C:/Users/PC04/projeto-sala-acessível/sala-mundo",
+      "program": "C:/Users/PC04/projeto-sala-acessível/sala-mundo/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

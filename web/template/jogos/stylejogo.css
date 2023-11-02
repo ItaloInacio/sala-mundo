@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to bottom, #66ccff, #336699);
+  }
+
+  /* Estilos personalizados para a lousa (quadro negro) */
+  .blackboard {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza o quadro na tela */
+    max-width: 600px; /* Define a largura máxima do quadro */
+  }
+  
+  /* Estilos personalizados para as estrelas */
+  .stars {
+    color: gold;
+  }
