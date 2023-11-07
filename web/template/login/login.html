@@ -9,8 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js">
-  </script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Login</title>
@@ -21,19 +20,19 @@
 
       <!-- Botões de Acessibilidade -->
       <div class="accessibility-buttons text-center">
-        <button id="toggle-contrast" class="btn btn-link btn-icon change-contrast" title="Alternar Contraste">
-          <i class="fas fa-adjust"></i>
+        <button id="toggle-contrast" class="btn btn-link btn-icon change-contrast" title="Alternar Contraste" aria-label="Alternar Contraste">
+          <i class="fas fa-adjust" aria-hidden="true"></i>
         </button>
         
-        <button id="increase-font-size" class="btn btn-link btn-icon" title="Aumentar Fonte">
-          <i class="fas fa-text-height"></i>
+        <button id="increase-font-size" class="btn btn-link btn-icon" title="Aumentar Fonte" aria-label="Aumentar Fonte">
+          <i class="fas fa-text-height" aria-hidden="true"></i>
         </button>
-        <button id="start-speech-recognition" class="btn btn-link btn-icon" title="Iniciar Reconhecimento de Fala">
-          <i class="fas fa-microphone"></i>
-      </button>
-      
-        
-        
+        <button id="start-speech-recognition" class="btn btn-link btn-icon" title="Iniciar Reconhecimento de Fala" aria-label="Iniciar Reconhecimento de Fala">
+          <i class="fas fa-microphone" aria-hidden="true"></i>
+        </button>
+        <button id="start-screen-reader" class="btn btn-link btn-icon" title="Ativar Leitor de Tela" aria-label="Ativar Leitor de Tela">
+          <i class="fas fa-volume-up" aria-hidden="true"></i>
+        </button>
       </div>
 
     </nav>
@@ -49,11 +48,11 @@
             <form id="loginForm">
               <div class="form-group">
                 <label for="email">E-mail</label>
-                <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required aria-label="E-mail">
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required aria-label="E-mail" aria-required="true">
               </div>
               <div class="form-group">
                 <label for="password">Senha</label>
-                <input type="password" class="form-control" id="password" placeholder="Sua senha" required>
+                <input type="password" class="form-control" id="password" placeholder="Sua senha" required aria-required="true">
               </div>
               <button type="submit" class="btn btn-primary btn-block">Entrar</button>
               <button type="button" class="btn btn-danger btn-block" id="googleLogin">Login com o Google</button>
@@ -64,9 +63,9 @@
     </div>
   </div>
   <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
-
   <script src="../static/js/acessibilidade.js"></script>
   <script src="../static/js/conexao.js"></script>
-  <script src="../static/js/funcaospeak.js" ></script>
+  <script src="../static/js/funcaospeak.js"></script>
+  <script src="../static/js/leitortela.js"></script>
 </body>
 </html>
